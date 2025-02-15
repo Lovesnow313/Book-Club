@@ -1,3 +1,32 @@
 p{
-    color:pink;
+    color:blueviolet;
+}
+nav{
+    background-color: aqua;
+}
+header{
+    background-color: blue;
+}
+#intro{
+    background-color: rgb(231, 139, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.main-section-content h2 {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+#best-seller{
+    background-color: lightyellow;
+}
+header,
+nav,
+#intro,
+#best-seller,
+.main-section-content{
+    border: 1px solid black;
 }
