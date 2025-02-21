@@ -1,8 +1,23 @@
+body{
+    background-color: #eeeeee;
+
+}
+header{
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 p{
     color:blueviolet;
 }
 nav{
     background-color: aqua;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
 }
 header{
     background-color: blue;
@@ -56,6 +71,9 @@ footer p:first-child{
     margin: 10px;
     width: 400px;
     box-shadow: 6px 0px 21px -3px #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 button{
     background-color: red;
@@ -110,6 +128,9 @@ th, td{
 }
 footer{
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 #best-seller{
     padding: 20px;
@@ -122,4 +143,18 @@ ol li{
     position: relative;
     left: 40%;
     width: 400px;
+}
+#video{
+    display: flex;
+    justify-content: space-around;
+
+}
+#member{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
 }
