@@ -158,3 +158,30 @@ nav ul{
     display: flex;
     justify-content: space-between;
 }
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+#intro{
+    grid-area: intro;
+}
+.main-section-content{
+    grid-area: mainsection;
+}
+#best-seller{
+    grid-area: bestseller;
+}
+footer{
+    grid-area: footer;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-areas: 
+    header header header header intro
+    nav nav nav nav intro
+    mainsection mainsection mainsection mainsection bestseller
+    footer footer footer footer footer;
+}
